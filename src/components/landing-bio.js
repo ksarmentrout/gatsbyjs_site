@@ -23,7 +23,7 @@ const Description = styled.p`
 
 const NameHeader = styled.h1`
   font-size: 3.5rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 `
 
 const LandingBio = () => (
@@ -42,7 +42,9 @@ const LandingBio = () => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>{data.site.siteMetadata.subtitle}</Description>
+          <Description>
+            Work in progress.
+          </Description>
         </Container>
       </OuterContainer>
     )}

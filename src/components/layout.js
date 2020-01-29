@@ -20,10 +20,6 @@ const Content = styled.div`
   padding-top: 0;
 `
 
-const GatsbyLink = styled.a`
-  margin-left: 5px;
-`
-
 const Footer = styled.footer`
   display: flex;
   justify-content: center;
@@ -40,16 +36,14 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={ () => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header/>
         <Content>
           <main>{children}</main>
-          <Footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
-          </Footer>
+          {/* <Footer>
+            © {new Date().getFullYear()}, All Rights Reserved
+          </Footer> */}
         </Content>
       </>
     )}

@@ -35,7 +35,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const GitHubLink = styled.a`
+const TwitterLink = styled.a`
   color: black;
   margin-left: 15px;
   text-decoration: none;
@@ -61,6 +61,9 @@ const GitHubLink = styled.a`
   }
 `
 
+const ArenaLink = styled(TwitterLink)`
+`
+
 const HomeLink = styled(NavLink)`
   margin-left: 0;
 `
@@ -72,15 +75,19 @@ const SiteHeader = styled.header`
   justify-content: center;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
-          GitHub
-        </GitHubLink>
+        <HomeLink to="/">Main</HomeLink>
+        <NavLink to="/about">About</NavLink>
+        {/* <NavLink to="/blog">Blog</NavLink> */}
+        <ArenaLink href="https://are.na/keaton-armentrout/">
+          Are.na
+        </ArenaLink>
+        <TwitterLink href="https://twitter.com/keaton_sa/">
+          Twitter
+        </TwitterLink>
       </p>
     </Content>
   </SiteHeader>

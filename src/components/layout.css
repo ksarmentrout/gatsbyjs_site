@@ -4,7 +4,6 @@ code {
 
 body {
   margin: 0;
-  font-family: "Nunito", "Avenir", "Helvetica", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,10 +64,6 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-mark {
-  background-color: #ff0;
-  color: #000;
-}
 small {
   font-size: 80%;
 }
@@ -95,7 +90,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 figure {
@@ -201,6 +195,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
+  /* background-color: hsla(47, 74%, 79%, 0.98); */
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -580,8 +575,6 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
 }
 pre code {
