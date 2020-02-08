@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Keaton Armentrout`,
-    subtitle: `hello world`,
     description: `Personal site`,
     author: `@keaton_sa`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    // `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

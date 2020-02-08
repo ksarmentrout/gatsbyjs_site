@@ -14,9 +14,17 @@ const typography = new Typography({
       styles: [
         'Light',
       ],
+    },
+    {
+      name: 'Expletus Sans',
+      styles: [
+        'Regular',
+        // 'Medium',
+      ],
     }
   ],
   headerFontFamily: [
+    'Expletus Sans',
     'Raleway',
     'Avenir Next',
     'Helvetica Neue',
@@ -26,6 +34,7 @@ const typography = new Typography({
     'sans-serif',
   ],
   bodyFontFamily: [
+    'Raleway',
     'Georgia',
     'serif',
   ],
