@@ -37,13 +37,12 @@ const IndexPage = () => (
               I'm working towards writing words one of these days.
             </p>
             <p>
-              Currently in Boston working in software engineering and genomics <br></br> 
-              and helping to organize local events with <Link href='https://neurotechx.com/'>NeuroTechX</Link>.<br></br>
+              Currently Boston-based working in software engineering and genomics. <br></br> 
+              Helping to organize local events with <Link href='https://neurotechx.com/'>NeuroTechX</Link>.<br></br>
             </p>
-            <p>Please say hi at <Link href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</Link></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>
+              Please reach out at <Link href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</Link>!
+            </p>
           </Description>
         </Container>
       </OuterContainer>
