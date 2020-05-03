@@ -26,19 +26,20 @@ const Link = styled.a`
   text-decoration: none;
 `
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About" />
       <OuterContainer>
         <Container>
+          <h1>About</h1>
           <Description>
             <p>
-              Sometimes I write code, other times I write music.<br></br>
+              Sometimes I write code, other times I write music.<br/>
               I'm working towards writing words one of these days.
             </p>
             <p>
-              Currently Boston-based working in software engineering and genomics. <br></br> 
-              Helping to organize local events with <Link href='https://neurotechx.com/'>NeuroTechX</Link>.<br></br>
+              Currently Boston-based working in software engineering and genomics. <br/>
+              Helping to organize local events with <Link href='https://neurotechx.com/'>NeuroTechX</Link>.<br/>
             </p>
             <p>
               Please reach out at <Link href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</Link>!
@@ -49,4 +50,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default AboutPage
