@@ -27,6 +27,14 @@ const NameHeader = styled.h1`
   margin-bottom: 0.5rem;
 `
 
+const NameFade1 = styled(NameHeader)`
+  opacity: 0.5;
+`
+
+const NameFade2 = styled(NameHeader)`
+  opacity: 0.2;
+`
+
 const LandingBio = () => (
   <StaticQuery
     query={graphql`
@@ -41,9 +49,13 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
+          <NameFade2>Keaton Armentrout</NameFade2>
+          <NameFade1>Keaton Armentrout</NameFade1>
+          <NameHeader>Keaton Armentrout</NameHeader>
+          {/*<NameFade1>Keaton Armentrout</NameFade1>*/}
+          {/*<NameFade2>Keaton Armentrout</NameFade2>*/}
           <Description>
-            {/* Work in progress. */}
+              {/*hey.*/}
           </Description>
         </Container>
       </OuterContainer>

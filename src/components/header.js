@@ -35,7 +35,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const TwitterLink = styled.a`
+const ExternalLink = styled.a`
   color: black;
   margin-left: 15px;
   text-decoration: none;
@@ -61,9 +61,6 @@ const TwitterLink = styled.a`
   }
 `
 
-const ArenaLink = styled(TwitterLink)`
-`
-
 const HomeLink = styled(NavLink)`
   margin-left: 0;
 `
@@ -81,13 +78,14 @@ const Header = () => (
       <p>
         <HomeLink to="/">Main</HomeLink>
         <NavLink to="/about">About</NavLink>
-        {/* <NavLink to="/blog">Blog</NavLink> */}
-        <ArenaLink href="https://are.na/keaton-armentrout/">
+        {/*<NavLink to="/blog">Blog</NavLink>*/}
+        {/*<NavLink to="/projects">Projects</NavLink>*/}
+        <ExternalLink href="https://are.na/keaton-armentrout/">
           Are.na
-        </ArenaLink>
-        <TwitterLink href="https://twitter.com/keaton_sa/">
+        </ExternalLink>
+        <ExternalLink href="https://twitter.com/keaton_sa/">
           Twitter
-        </TwitterLink>
+        </ExternalLink>
       </p>
     </Content>
   </SiteHeader>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Keaton Armentrout`,
-    description: `Personal site`,
+    description: `Keaton Armentrout personal portfolio site`,
     author: `@keaton_sa`,
   },
   plugins: [
@@ -13,9 +13,6 @@ module.exports = {
         name: `keaton_armentrout_site`,
         short_name: `ksarmentrout`,
         start_url: `/`,
-        // background_color: `#663399`,
-        // theme_color: `#663399`,
-        // display: `minimal-ui`,
         icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },

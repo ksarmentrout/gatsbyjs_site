@@ -1,7 +1,7 @@
 ---
-title: "This is such a long headline and i dont know what to write so i keep continiung"
+title: "This is a Much Longer Headline to See How it Looks Across Multiple Lines"
 date: "2019-03-17"
-draft: true
+draft: false
 path: "/blog/example-title"
 ---
 # H1
