@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import "./landing-bio.css"
 
 const Container = styled.div`
   text-align: center;
@@ -49,8 +50,8 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
-          <NameFade2>Keaton Armentrout</NameFade2>
-          <NameFade1>Keaton Armentrout</NameFade1>
+          <NameFade2 className='fade'>Keaton Armentrout</NameFade2>
+          <NameFade1 className='fade'>Keaton Armentrout</NameFade1>
           <NameHeader>Keaton Armentrout</NameHeader>
           {/*<NameFade1>Keaton Armentrout</NameFade1>*/}
           {/*<NameFade2>Keaton Armentrout</NameFade2>*/}
