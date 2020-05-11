@@ -10,7 +10,6 @@ const Content = styled.div`
 `
 
 const NavLink = styled(Link)`
-  color: black;
   margin-left: 15px;
   text-decoration: none;
   display: inline-block;
@@ -24,23 +23,24 @@ const NavLink = styled(Link)`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #f9f8f0;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
+    background-color: #f9f8f0;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
 `
 
 const ExternalLink = styled.a`
-  color: black;
   margin-left: 15px;
   text-decoration: none;
   display: inline-block;
   position: relative;
+  color: #f9f8f2;
 
   ::after {
     content: "";
@@ -50,12 +50,13 @@ const ExternalLink = styled.a`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #f9f8f2;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
+    background-color: #f9f8f2;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
