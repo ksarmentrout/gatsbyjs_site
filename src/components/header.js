@@ -8,6 +8,11 @@ const Content = styled.div`
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
 `
+const Divider = styled.div`
+  margin-left: 15px;
+  display: inline-block;
+  position: relative;
+`
 
 const NavLink = styled(Link)`
   margin-left: 15px;
@@ -81,6 +86,7 @@ const Header = () => (
         <NavLink to="/about">About</NavLink>
         {/*<NavLink to="/blog">Blog</NavLink>*/}
         <NavLink to="/works">Works</NavLink>
+        <Divider>|</Divider>
         <ExternalLink href="https://are.na/keaton-armentrout/">
           Are.na
         </ExternalLink>
