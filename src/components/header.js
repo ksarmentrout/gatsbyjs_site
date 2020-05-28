@@ -80,9 +80,12 @@ const Header = () => (
         <HomeLink to="/">Main</HomeLink>
         <NavLink to="/about">About</NavLink>
         {/*<NavLink to="/blog">Blog</NavLink>*/}
-        {/*<NavLink to="/projects">Projects</NavLink>*/}
+        <NavLink to="/works">Works</NavLink>
         <ExternalLink href="https://are.na/keaton-armentrout/">
           Are.na
+        </ExternalLink>
+        <ExternalLink href="https://github.com/ksarmentrout">
+          GitHub
         </ExternalLink>
         <ExternalLink href="https://twitter.com/keaton_sa/">
           Twitter
