@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import styled from "@emotion/styled"
 
@@ -21,7 +22,12 @@ const Description = styled.p`
   margin-bottom: 1rem;
 `
 
-const Link = styled.a`
+const ExLink = styled.a`
+  color: #963d5a;
+  text-decoration: none;
+`
+
+const NavLink = styled(Link)`
   color: #963d5a;
   text-decoration: none;
 `
@@ -38,11 +44,15 @@ const AboutPage = () => (
               I'm working towards writing words one of these days.
             </p>
             <p>
-              Currently Boston-based working in software engineering and genomics. <br/>
-              Helping to organize local events with <Link href='https://neurotechx.com/'>NeuroTechX</Link>.<br/>
+              Originally pursuing neural engineering, I've transitioned into working as a backend Python developer for
+              Boston-area startups over the past few years. Currently working on bioinformatics at <ExLink href='https://readcoor.com/'>ReadCoor</ExLink>.
             </p>
+            <br/>
+              Also interested in how people interact in online spaces. New projects in that domain 
+              will show up on the <NavLink to="/works">works page</NavLink>.
             <p>
-              Please reach out at <Link href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</Link>!
+              Always open for collaboration, 
+              please reach out at <ExLink href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</ExLink>!
             </p>
           </Description>
         </Container>
