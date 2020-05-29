@@ -47,7 +47,7 @@ const Layout = ({ children }) => (
     `}
     render={ () => (
       <>
-      <Media queries={{ small: { maxWidth: 900 } }}>
+      <Media queries={{ small: { maxWidth: 800 } }}>
           {matches =>
             matches.small ? (
               <div classname='hamburger_header'>
