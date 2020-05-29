@@ -5,6 +5,7 @@ code {
 
 body {
   margin: 0;
+  overflow: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -620,4 +621,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.hamburger-header {
+  position: relative;
 }
