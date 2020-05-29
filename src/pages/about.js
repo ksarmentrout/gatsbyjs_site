@@ -5,6 +5,7 @@ import { Container, OuterContainer } from "../components/style-blocks"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./about.css"
 
 const Description = styled.p`
   padding: 0;
@@ -29,9 +30,9 @@ const AboutPage = () => (
       <OuterContainer>
         <Container>
           <h1>About</h1>
-          <Description>
+          <Description className='about_content'>
             <p>
-              Sometimes I write code, other times I write music.<br/>
+              Sometimes I write code, other times I write music.
               I'm working towards writing words one of these days.
             </p>
             <p>

@@ -1,0 +1,5 @@
+@media only screen and (max-width: 800px) {
+  .about_content p {
+    text-align: justify;
+  }
+}
