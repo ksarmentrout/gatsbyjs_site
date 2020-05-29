@@ -1,11 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import { Content } from "../components/style-blocks"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./works.css"
 
 
 const PageHeader = styled.h1`
@@ -28,7 +28,7 @@ const WorksPage = ({ data }) => {
     <Layout>
       <SEO title="Works" />
       <Content>
-        <PageHeader>Works</PageHeader>
+        <PageHeader className='works_title'>Works</PageHeader>
           <a
             href="https://wisdomoftheflock.com"
             css={css`

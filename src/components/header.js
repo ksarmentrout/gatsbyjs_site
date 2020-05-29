@@ -8,6 +8,7 @@ const Content = styled.div`
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
 `
+
 const Divider = styled.div`
   margin-left: 15px;
   display: inline-block;
