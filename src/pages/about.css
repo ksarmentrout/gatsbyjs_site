@@ -1,5 +1,7 @@
 @media only screen and (max-width: 800px) {
   .about_content p {
     text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
