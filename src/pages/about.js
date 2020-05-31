@@ -15,12 +15,12 @@ const Description = styled.p`
 `
 
 const ExLink = styled.a`
-  color: #963d5a;
+  color: #d1567f;
   text-decoration: none;
 `
 
 const NavLink = styled(Link)`
-  color: #963d5a;
+  color: #d1567f;
   text-decoration: none;
 `
 
