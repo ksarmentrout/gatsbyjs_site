@@ -36,8 +36,12 @@ const AboutPage = () => (
               I'm working towards writing words one of these days.
             </p>
             <p>
-              Originally pursuing neural engineering, I've transitioned into working as a backend Python developer for
-              Boston area biotech startups over the past few years. Currently working on bioinformatics at <ExLink href='https://readcoor.com/'>ReadCoor</ExLink>.
+              I make music as <ExLink href='https://instagram.com/moss_ives'>Moss Ives</ExLink> and I'm currently recording my first EP.
+            </p>
+            <p>
+              Originally pursuing neural engineering, I've transitioned into working as a backend developer for
+              Boston area biotech startups over the past few years. Currently working on bioinformatics at 
+              <ExLink href='https://readcoor.com/'>ReadCoor</ExLink>.
             </p>
             <p>
               Also interested in how people interact in online spaces. New projects in that domain 
