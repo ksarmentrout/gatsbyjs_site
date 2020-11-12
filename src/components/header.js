@@ -87,7 +87,7 @@ const Header = () => (
         <NavLink to="/about">About</NavLink>
         {/*<NavLink to="/blog">Blog</NavLink>*/}
         <NavLink to="/works">Works</NavLink>
-        <ExternalLink href="https://instagram.com/moss_ives">
+        <ExternalLink href="https://mossives.com">
           Music
         </ExternalLink>
         <Divider>|</Divider>
