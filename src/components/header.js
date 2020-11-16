@@ -85,7 +85,7 @@ const Header = () => (
       <p>
         <HomeLink to="/">Main</HomeLink>
         <NavLink to="/about">About</NavLink>
-        {/*<NavLink to="/blog">Blog</NavLink>*/}
+        <NavLink to="/blog">Blog</NavLink>
         <NavLink to="/works">Works</NavLink>
         <ExternalLink href="https://mossives.com">
           Music
