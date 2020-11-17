@@ -29,13 +29,15 @@ const NavLink = styled(Link)`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #f9f8f0;
+    // background-color: #f9f8f0;
+    background-color: #050505;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
-    background-color: #f9f8f0;
+    // background-color: #f9f8f0;
+    background-color: #050505;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -46,7 +48,8 @@ const ExternalLink = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: #f9f8f2;
+  // color: #f9f8f0;
+  color: #050505;
 
   ::after {
     content: "";
@@ -56,13 +59,15 @@ const ExternalLink = styled.a`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #f9f8f2;
+    // background-color: #f9f8f0;
+    background-color: #050505;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
-    background-color: #f9f8f2;
+    // background-color: #f9f8f0;
+    background-color: #050505;
     transform: scaleX(1);
     transform-origin: bottom left;
   }

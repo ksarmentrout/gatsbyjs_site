@@ -12,15 +12,19 @@ const Description = styled.p`
   margin-bottom: 1rem;
   max-width: 70vw;
   max-width: 650px;
+  font-size: larger;
+  text-align: justify;
 `
 
 const ExLink = styled.a`
-  color: #d1567f;
+  // color: #9B6A6C;
+  color: #875A5B;
   text-decoration: none;
 `
 
 const NavLink = styled(Link)`
-  color: #d1567f;
+  // color: #9B6A6C;
+  color: #875A5B;
   text-decoration: none;
 `
 
@@ -52,7 +56,7 @@ const AboutPage = () => (
               will show up on the <NavLink to="/works">works page</NavLink>.
             </p>
             <p>
-              Always open for collaboration, say hi 
+              Always open to collaboration, say hi 
               at <ExLink href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</ExLink> or 
               DM me on <ExLink href='https://twitter.com/keaton_sa'>Twitter</ExLink>.
             </p>

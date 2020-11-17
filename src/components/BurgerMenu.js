@@ -1,7 +1,6 @@
 
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
-import PropTypes from "prop-types"
 import React from "react"
 import "./BurgerMenu.css"
 
@@ -9,7 +8,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: #222;
+  color: #050505;
   ::after {
     content: "";
     position: absolute;
@@ -18,13 +17,13 @@ const NavLink = styled(Link)`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #222;
+    background-color: #050505;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
-    background-color: #222;
+    background-color: #050505;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -34,7 +33,7 @@ const ExternalLink = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: #222;
+  color: #050505;
   ::after {
     content: "";
     position: absolute;
@@ -43,13 +42,13 @@ const ExternalLink = styled.a`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #222;
+    background-color: #050505;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
-    background-color: #222;
+    background-color: #050505;
     transform: scaleX(1);
     transform-origin: bottom left;
   }

@@ -1,6 +1,5 @@
 code {
   background-color: #222222;
-  /* background-color: hsla(0, 0%, 0%, 0.04); */
 }
 
 body {
@@ -42,9 +41,12 @@ template {
 }
 a {
   font-style: normal;
-  /* color: hsla(0, 0%, 0%, 0.8); */
-  /* color: #f9f8f2; */
-  color: #f7f6ee;
+
+  /* Dark mode */
+  /* color: #f9f8f0; */
+
+  /* Light mode */
+  color: #050505;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -199,12 +201,14 @@ html {
 }
 body {
   /* Default black and offwhite */
-  /* color: hsla(0, 0%, 0%, 0.8); */
-  /* background-color: #f9f8f2; */
-  /* color: #aa6464; */
-  /* color: #f7f6ee; */
-  color: #f9f8f0;
-  background-color: #050505;
+
+  /* These first two are dark mode */
+  /* color: #f9f8f0; */
+  /* background-color: #050505; */
+
+  /* These two are light mode */
+  color: #050505;
+  background-color: #f9f8f0;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

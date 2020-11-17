@@ -14,8 +14,8 @@
 .bar3 {
   width: 25px;
   height: 3px;
-  /* background-color: #fff; */
-  background-color: #f9f8f2;
+  /* background-color: #f9f8f0; */
+  background-color: #050505;
   margin: 4px 0;
   transition: 0.4s;
 }
@@ -23,16 +23,16 @@
 .burger-icon.open .bar1 {
   -webkit-transform: rotate(-45deg) translate(-4px, 4px);
   transform: rotate(-45deg) translate(-4px, 4px);
-  background-color: #222;
+  background-color: #050505;
 }
 
 .burger-icon.open .bar2 {
   opacity: 0;
-  background-color: #222;
+  background-color: #050505;
 }
 
 .burger-icon.open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -6px);
   transform: rotate(45deg) translate(-6px, -6px);
-  background-color: #222;
+  background-color: #050505;
 }
