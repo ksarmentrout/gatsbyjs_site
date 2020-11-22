@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import PropTypes from "prop-types"
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Content = styled.div`
   max-width: 860px;
@@ -43,7 +44,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const ExternalLink = styled.a`
+const ExternalLink = styled(OutboundLink)`
   margin-left: 15px;
   text-decoration: none;
   display: inline-block;
