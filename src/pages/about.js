@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "@emotion/styled"
-import { Container, OuterContainer } from "../components/style-blocks"
+import { Content, Container, OuterContainer, PageHeader } from "../components/style-blocks"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,11 +9,13 @@ import "./about.css"
 
 const Description = styled.p`
   padding: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   max-width: 70vw;
   max-width: 650px;
   font-size: larger;
   text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 const ExLink = styled.a`
@@ -31,9 +33,8 @@ const NavLink = styled(Link)`
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-      <OuterContainer>
-        <Container>
-          <h1>About</h1>
+      <Content>
+        <PageHeader>About</PageHeader>
           <Description className='about_content'>
             <p>
               Hey there! Thanks for visiting this corner of the internet, I'm glad you're here. 
@@ -61,8 +62,7 @@ const AboutPage = () => (
               DM me on <ExLink href='https://twitter.com/keaton_sa'>Twitter</ExLink>.
             </p>
           </Description>
-        </Container>
-      </OuterContainer>
+      </Content>
   </Layout>
 )
 

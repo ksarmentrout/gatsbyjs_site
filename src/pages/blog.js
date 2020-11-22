@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
-import { Content } from "../components/style-blocks"
+import { Content, PageHeader } from "../components/style-blocks"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -24,16 +24,12 @@ const ReadingTime = styled.h5`
   // font-family: Raleway;
 `
 
-const BlogHeader = styled.h1`
-  text-align: center;
-`
-
 const BlogPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
       <Content>
-        <BlogHeader>Blog</BlogHeader>
+        <PageHeader>Blog</PageHeader>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate

@@ -1,12 +1,5 @@
 import styled from "@emotion/styled"
 
-const OuterContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  height: 78vh;
-`
 
 const Container = styled.div`
   text-align: center;
@@ -18,5 +11,25 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
+const OuterContainer = styled.div`
+  align-items: center;
+  justify-content: center;
+  height: 78vh;
+  text-align: center;
+`
 
-export { Container, OuterContainer, Content };
+const PageHeader = styled.h1`
+  text-align: center;
+
+  @media only screen and (max-width: 800px) {
+    margin-top: 7%;
+  }
+`
+
+
+export { 
+  Container,
+  Content,
+  OuterContainer,
+  PageHeader,
+};

@@ -2,6 +2,7 @@
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import "./BurgerMenu.css"
 
 const NavLink = styled(Link)`
@@ -29,7 +30,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const ExternalLink = styled.a`
+const ExternalLink = styled(OutboundLink)`
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -64,7 +65,15 @@ export default () => (
             <NavLink to="/about">About</NavLink>
         </li>
         <li>
+            <NavLink to="/blog">Blog</NavLink>
+        </li>
+        <li>
             <NavLink to="/works">Works</NavLink>
+        </li>
+        <li>
+            <ExternalLink href="https://mossives.com">
+                Music
+            </ExternalLink>
         </li>
         <li>
             <ExternalLink href="https://are.na/keaton-armentrout/">

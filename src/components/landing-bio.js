@@ -2,13 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { Container } from "../components/style-blocks"
 import "./landing-bio.css"
 
-const Container = styled.div`
-  text-align: center;
-`
-
-const OuterContainer = styled.div`
+const FlexOuterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +45,7 @@ const LandingBio = () => (
       }
     `}
     render={data => (
-      <OuterContainer>
+      <FlexOuterContainer>
         <Container>
           <NameFade2 className='fade'>Keaton Armentrout</NameFade2>
           <NameFade1 className='fade'>Keaton Armentrout</NameFade1>
@@ -59,7 +56,7 @@ const LandingBio = () => (
               {/*hey.*/}
           </Description>
         </Container>
-      </OuterContainer>
+      </FlexOuterContainer>
     )}
   />
 )
