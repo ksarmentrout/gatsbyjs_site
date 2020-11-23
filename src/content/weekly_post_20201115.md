@@ -1,8 +1,8 @@
 ---
-title: "Weekly Post 11/15/20"
+title: "Weekly Post 000: Intro"
 date: "2020-11-15"
 draft: False
-path: "/blog/weekly-post-11-15-20"
+path: "/blog/weekly-post-000"
 ---
 I'm going to start writing. I've been meaning to for a while, of course (who hasn't?) but I've now seen enough blogs of informal yet interesting content that I'm inspired to start also gathering my thoughts together in small piles each week.
 
