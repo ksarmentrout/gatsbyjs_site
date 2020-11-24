@@ -12,7 +12,6 @@ const Description = styled.p`
   margin-bottom: 2rem;
   max-width: 70vw;
   max-width: 650px;
-  font-size: larger;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;

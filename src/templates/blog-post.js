@@ -23,15 +23,6 @@ const HeaderDate = styled.h3`
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
-  p {
-    font-size: larger;
-  }
-  ul {
-    font-size: larger;
-  }
-  ol {
-    font-size: larger;
-  }
   a {
     color: #875A5B;
     text-decoration: none;

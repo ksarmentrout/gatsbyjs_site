@@ -21,7 +21,7 @@ const ArticleHeader = styled.h3`
 const ReadingTime = styled.h5`
   display: inline;
   color: #606060;
-  // font-family: Raleway;
+  font-family: Raleway;
 `
 
 const BlogPage = ({ data }) => {

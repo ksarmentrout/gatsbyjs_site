@@ -21,7 +21,20 @@ const typography = new Typography({
       name: 'Expletus Sans',
       styles: [
         'Regular',
-        // 'Medium',
+      ],
+    },
+    {
+      name: 'Open Sans',
+      styles: [
+        'Regular',
+        // 'Light',
+      ],
+    },
+    {
+      name: 'Montserrat',
+      styles: [
+        'Regular',
+        // 'Light',
       ],
     }
   ],
@@ -36,9 +49,11 @@ const typography = new Typography({
     'sans-serif',
   ],
   bodyFontFamily: [
+    'Montserrat',
+    'Open Sans',
     'Raleway',
     'Georgia',
-    'serif',
+    'sans-serif',
   ],
 })
 export default typography

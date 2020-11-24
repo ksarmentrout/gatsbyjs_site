@@ -83,6 +83,7 @@ const SiteHeader = styled.header`
   display: flex;
   align-content: center;
   justify-content: center;
+  font-family: Raleway;
 `
 
 const Header = () => (
