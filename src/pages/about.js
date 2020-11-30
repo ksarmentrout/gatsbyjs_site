@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "@emotion/styled"
-import { Content, Container, OuterContainer, PageHeader } from "../components/style-blocks"
+import { Content, PageHeader } from "../components/style-blocks"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
