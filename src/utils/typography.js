@@ -13,6 +13,7 @@ const typography = new Typography({
       name: 'Raleway',
       styles: [
           'Light',
+          'Regular',
           'Semi-bold',
           'Bold',
       ],
