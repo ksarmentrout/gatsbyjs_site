@@ -61,6 +61,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
