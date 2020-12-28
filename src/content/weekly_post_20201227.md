@@ -59,6 +59,10 @@ The world of crypto art and NFTs in general have already generated new concepts 
 
 ---
 
+[**Update 12/28/20:** Given the topic, I decided to [additionally post this to Cent](https://beta.cent.co/ksarmentrout/+5jrv5n)!]
+
+---
+
 # Small Stuff
 
 - [New Urgency](https://new-urgency.net/): a curated archive of ideas around critical design and speculative futures
