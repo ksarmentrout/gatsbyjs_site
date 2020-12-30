@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, image: metaImage, keywords, title, pathn
             title
             description
             author
+            siteUrl
           }
         }
       }
