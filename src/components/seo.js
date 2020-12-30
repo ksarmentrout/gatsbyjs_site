@@ -67,10 +67,6 @@ function SEO({ description, lang, meta, image: metaImage, keywords, title, pathn
           content: `website`,
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
           name: `twitter:creator`,
           content: site.siteMetadata.author,
         },
@@ -109,6 +105,10 @@ function SEO({ description, lang, meta, image: metaImage, keywords, title, pathn
                 {
                   name: "twitter:card",
                   content: "summary_large_image",
+                },
+                {
+                  property: "twitter:image",
+                  content: image,
                 },
               ]
             : [
