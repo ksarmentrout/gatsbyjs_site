@@ -5,8 +5,6 @@ draft: False
 path: "/blog/weekly-post-003"
 ---
 
----
-
 When one thinks of worldbuilding, they might think of extended fantasy epics that have grown beyond the scope of their original medium, like Lord of the Rings or Harry Potter. Those are *worlds*! They're not just books, they have faces and voices to the characters, physical recreations of some locations, games you can immerse yourself in. They really *exist* in a high-dimensional space! How did that happen though?  What makes those seem more *real* than others, and what even is a world?
 
 ---

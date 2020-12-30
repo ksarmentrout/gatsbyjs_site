@@ -3,6 +3,7 @@ title: "Weekly Post 006: Buying Tweets"
 date: "2020-12-27"
 draft: False
 path: "/blog/weekly-post-006"
+featuredImage: "../images/cards/weekly_post_006_card.png"
 ---
 
 I wouldn't have guessed that last-minute Christmas gifts this year would be other people's tweets. 
@@ -13,7 +14,7 @@ Congratulations, you've now "purchased" a tweet! Of course, the tweet stays wher
 
 Valuables makes a secondary market out of other people's cultural IP. What you've purchased is "symbolic" ownership of the tweet, but "actual" ownership of a derivative asset created from the tweet. Here's where some notions of ownership get a little fuzzy, so let's take a detour into them before hitting some of the new developing use cases.
 
-# Whose Tweet is it Anyway?
+## Whose Tweet is it Anyway?
 
 Katherine Hayles, writing in 1999 about virtual bodies and cybernetics in *[How We Became Posthuman](https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html)*, observed a shift in how we exist virtually that I often use to contextualize how value arises online: digital media focuses on **pattern vs. randomness** as opposed to **presence vs. absence**. 
 
@@ -33,7 +34,7 @@ Despite these two assets both being digital-first, being a tweet author is close
 
 Less than one week after the launch of Valuables, we're already seeing people use the secondary marketplace in innovative and unique ways.
 
-# Evolving Use Cases
+## Evolving Use Cases
 
 Shortly after Valuables dropped, people started figuring out inventive ways of using them, driving more dynamic interactions around the concept than simply "I bought this tweet." There are many more collected in [this thread](https://twitter.com/niftytime/status/1340700766818844672?s=20) but I wanted to highlight my favorites here. 
 

@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <ErrorBoundary>
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Home"/>
       <LandingBio />
     </Layout>
   </ErrorBoundary>

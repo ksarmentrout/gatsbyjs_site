@@ -32,11 +32,17 @@ const MarkdownContent = styled.div`
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  const image = post.frontmatter.image
+      ? post.frontmatter.image.childImageSharp.resize
+      : null
+
   return (
     <Layout>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        pathname={post.frontmatter.path}
+        image={image}
       />
       <Content>
         <ArticleHeader>{post.frontmatter.title}</ArticleHeader>
@@ -58,6 +64,15 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         path
         title
+        image: featuredImage {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
       fields {
         readingTime {
