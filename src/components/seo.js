@@ -107,7 +107,7 @@ function SEO({ description, lang, meta, image: metaImage, keywords, title, pathn
                   content: "summary_large_image",
                 },
                 {
-                  property: "twitter:image",
+                  name: "twitter:image",
                   content: image,
                 },
               ]
