@@ -3,6 +3,7 @@ title: "Weekly Post 002: Acknowledge the Stars, Acknowledge the Land"
 date: "2020-11-29"
 draft: False
 path: "/blog/weekly-post-002"
+featuredImage: "../images/cards/weekly_post_002_card.png"
 ---
 
 "Dark matter" is the name given to a substance ubiquitous in the universe but which exists perpetually out of reach. We cannot capture it with anything our bodies interact with and even to say it's a shadowy substance is inaccurate because it casts no shadow. 
