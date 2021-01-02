@@ -1,9 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "@emotion/styled"
+
+import kebabCase from "lodash/kebabCase"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { StyledInLink } from "../components/style-blocks"
+import { intersperse } from "../utils/helpers"
+
 import "./blog_post.css"
+import BlogFooter from "../components/blog_footer"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -22,11 +29,21 @@ const HeaderDate = styled.h3`
   color: #606060;
 `
 
+const TagList = styled.h4`
+  margin-top: 40px;
+  margin-bottom: 0px;
+  color: #606060;
+  font-size: smaller;
+`
+
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
   a {
     color: #875A5B;
     text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 `
 
@@ -37,6 +54,7 @@ export default ({ data }) => {
       : null
 
   return (
+    <>
     <Layout>
       <SEO
         title={post.frontmatter.title}
@@ -50,8 +68,20 @@ export default ({ data }) => {
           {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
+        <TagList>
+          Tags: {
+            post.frontmatter.tags && 
+            intersperse(post.frontmatter.tags.map(tag => (
+              <StyledInLink to={`/tags/${kebabCase(tag)}/`}>
+                {tag}
+              </StyledInLink>
+          )), ', ')
+          } 
+        </TagList>
       </Content>
+    <BlogFooter></BlogFooter>
     </Layout>
+    </>
   )
 }
 
@@ -64,6 +94,7 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         path
         title
+        tags
         image: featuredImage {
           childImageSharp {
             resize(width: 1200) {

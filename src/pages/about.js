@@ -1,7 +1,6 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "@emotion/styled"
-import { Content, PageHeader } from "../components/style-blocks"
+import { Content, PageHeader, StyledExLink, StyledInLink } from "../components/style-blocks"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,18 +16,6 @@ const Description = styled.p`
   margin-right: auto;
 `
 
-const ExLink = styled.a`
-  // color: #9B6A6C;
-  color: #875A5B;
-  text-decoration: none;
-`
-
-const NavLink = styled(Link)`
-  // color: #9B6A6C;
-  color: #875A5B;
-  text-decoration: none;
-`
-
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
@@ -40,25 +27,25 @@ const AboutPage = () => (
             </p>
             <p>
               I'm a software engineer and musician based in Seattle, Washington. 
-              I make music as <ExLink href='https://mossives.com'>Moss Ives</ExLink> and I'm currently recording my 
+              I make music as <StyledExLink href='https://mossives.com'>Moss Ives</StyledExLink> and I'm currently recording my 
               first EP, called "Forms".
             </p>
             <p>
               I started out studying neural engineering, researching brain-computer interfaces in 
-              the <ExLink href='https://www.nicolelislab.net/'>Nicolelis Lab</ExLink>. 
+              the <StyledExLink href='https://www.nicolelislab.net/'>Nicolelis Lab</StyledExLink>. 
               If you're interested in that field, I highly recommend checking out 
-              the <ExLink href='https://neurotechx.com'>NeuroTechX</ExLink> community.
+              the <StyledExLink href='https://neurotechx.com'>NeuroTechX</StyledExLink> community.
               Over the past few years though I've been in Boston working as a developer at
               biotech startups, now focused on genomics.
             </p>
             <p>
               Also interested in digital art and online spaces. New projects in that domain 
-              will show up on the <NavLink to="/works">works page</NavLink>.
+              will show up on the <StyledInLink to="/works">works page</StyledInLink>.
             </p>
             <p>
               Always open to collaboration, say hi 
-              at <ExLink href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</ExLink> or 
-              DM me on <ExLink href='https://twitter.com/keaton_sa'>Twitter</ExLink>.
+              at <StyledExLink href='mailto:keaton@ksarmentrout.com'>keaton@ksarmentrout.com</StyledExLink> or 
+              DM me on <StyledExLink href='https://twitter.com/keaton_sa'>Twitter</StyledExLink>.
             </p>
           </Description>
       </Content>

@@ -4,6 +4,7 @@ date: "2020-12-13"
 draft: False
 path: "/blog/weekly-post-004"
 featuredImage: "../images/cards/weekly_post_004_card.png"
+tags: ["weekly post", "music", "spaces", ]
 ---
 
 Music is a gaseous thing. It expands to fill any space it's in and tinges it with an emotion. Once a song becomes entangled with a place, a time, a person, hearing that song again later brings you immediately back. Music is a tether between a feeling and a context. 
