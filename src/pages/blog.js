@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
+import BlogFooter from "../components/blog_footer"
 import { Content, PageHeader } from "../components/style-blocks"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -55,6 +56,7 @@ const BlogPage = ({ data }) => {
             </div>
           ))}
       </Content>
+      <BlogFooter></BlogFooter>
     </Layout>
   )
 }

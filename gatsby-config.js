@@ -101,6 +101,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-netlify`,
       options: {

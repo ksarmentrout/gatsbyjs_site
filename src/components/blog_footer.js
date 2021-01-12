@@ -37,6 +37,7 @@ const BlogFooter = () => {
           <h4 style={{ "margin-bottom": "0px" }}>Navigation:</h4>
           <StyledInLink to="/blog">Blog Home</StyledInLink>
           <StyledInLink to="/tags">All Tags</StyledInLink>
+          <StyledInLink to="/rss.xml">RSS Feed</StyledInLink>
         </LinkStack>
         <FooterTags></FooterTags>
     </Footer>
