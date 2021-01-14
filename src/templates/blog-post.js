@@ -45,6 +45,10 @@ const MarkdownContent = styled.div`
   a:hover {
     text-decoration: underline;
   }
+  figcaption {
+    color: #606060;
+    font-size: smaller;
+  }
 `
 
 export default ({ data }) => {
