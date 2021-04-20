@@ -92,20 +92,20 @@ const Header = () => (
       <p>
         <HomeLink to="/">Main</HomeLink>
         <NavLink to="/about">About</NavLink>
+        <ExternalLink href="https://mossives.com">
+          Music
+        </ExternalLink>
         <NavLink to="/blog">Blog</NavLink>
         <NavLink to="/works">Works</NavLink>
         <Divider>|</Divider>
-        <ExternalLink href="https://mossives.com">
-          Music
+        <ExternalLink href="https://twitter.com/keaton_sa/">
+          Twitter
         </ExternalLink>
         <ExternalLink href="https://are.na/keaton-armentrout/">
           Are.na
         </ExternalLink>
         <ExternalLink href="https://github.com/ksarmentrout">
           GitHub
-        </ExternalLink>
-        <ExternalLink href="https://twitter.com/keaton_sa/">
-          Twitter
         </ExternalLink>
       </p>
     </Content>

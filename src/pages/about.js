@@ -23,32 +23,33 @@ const AboutPage = () => (
         <PageHeader>About</PageHeader>
           <Description className='about_content'>
             <p>
-              Hey there! Thanks for visiting this corner of the internet, I'm glad you're here. 
+              Hey there! Thanks for visiting my site, I'm glad you're here.
             </p>
             <p>
               I'm a software engineer, musician, and artist based in Seattle, Washington. 
               I make music as <StyledExLink href='https://mossives.com'>Moss Ives</StyledExLink> and released my 
-              debut EP, "Forms" in April 2021. Check it out 
-              <StyledExLink href='https://mossives.bandcamp.com/album/forms'>
-                on Bandcamp
-              </StyledExLink> or <StyledExLink href='https://open.spotify.com/album/1wzzFNyJEoxZLnwLDAArPV?si=Lr6rb6yxSpShkfYDpAkg4Q'>
-                on Spotify
+              debut EP, "Forms" in April 2021. Check it out on <StyledExLink href='https://mossives.bandcamp.com/album/forms'>
+                Bandcamp
+              </StyledExLink>, <StyledExLink href='https://open.spotify.com/album/1wzzFNyJEoxZLnwLDAArPV?si=Lr6rb6yxSpShkfYDpAkg4Q'>
+                Spotify
+              </StyledExLink>, or <StyledExLink href='https://audius.co/mossives/album/forms-43564'>
+                Audius
               </StyledExLink>.
             </p>
             <p>
               I started out studying neural engineering, researching brain-computer interfaces in 
-              the <StyledExLink href='https://www.nicolelislab.net/'>Nicolelis Lab</StyledExLink>. 
-              If you're interested in that field, I highly recommend checking out 
-              the <StyledExLink href='https://neurotechx.com'>NeuroTechX</StyledExLink> community.
-              Over the past few years though I've been in Boston working as a developer at
+              the <StyledExLink href='https://www.nicolelislab.net/'>Nicolelis Lab</StyledExLink>, then
+              kept up with neurotech as an organizer of the <StyledExLink href='https://neurotechx.com'>NeuroTechX</StyledExLink> Boston 
+              chapter. Over the past few years I've been working as a developer at
               biotech startups, now focused on genomics.
             </p>
             <p>
-              Also interested in digital art and online spaces. A recent work called "Place Memory" was featured in 
+              I'm also interested in digital art and online spaces. My recent work "Place Memory" was featured in 
               the <StyledExLink href='https://www.sciartmagazine.com/movement-mapped.html'>
                 2021 Spring issue of SciArt Magazine
-              </StyledExLink>. New projects in that domain 
-              will show up on the <StyledInLink to="/works">works page</StyledInLink>.
+              </StyledExLink>. The full list of my projects is on 
+              the <StyledInLink to="/works">works page</StyledInLink>, and I've been doing some writing
+              over at the <StyledInLink to="/blog">blog</StyledInLink>.
             </p>
             <p>
               Always open to collaboration, say hi 
