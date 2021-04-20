@@ -35,7 +35,7 @@ const typography = new Typography({
       name: 'Montserrat',
       styles: [
         'Regular',
-        // 'Light',
+        'Light',
       ],
     }
   ],

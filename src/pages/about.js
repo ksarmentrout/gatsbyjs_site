@@ -26,9 +26,14 @@ const AboutPage = () => (
               Hey there! Thanks for visiting this corner of the internet, I'm glad you're here. 
             </p>
             <p>
-              I'm a software engineer and musician based in Seattle, Washington. 
-              I make music as <StyledExLink href='https://mossives.com'>Moss Ives</StyledExLink> and I'm currently recording my 
-              first EP, called "Forms".
+              I'm a software engineer, musician, and artist based in Seattle, Washington. 
+              I make music as <StyledExLink href='https://mossives.com'>Moss Ives</StyledExLink> and released my 
+              debut EP, "Forms" in April 2021. Check it out 
+              <StyledExLink href='https://mossives.bandcamp.com/album/forms'>
+                on Bandcamp
+              </StyledExLink> or <StyledExLink href='https://open.spotify.com/album/1wzzFNyJEoxZLnwLDAArPV?si=Lr6rb6yxSpShkfYDpAkg4Q'>
+                on Spotify
+              </StyledExLink>.
             </p>
             <p>
               I started out studying neural engineering, researching brain-computer interfaces in 
@@ -39,7 +44,10 @@ const AboutPage = () => (
               biotech startups, now focused on genomics.
             </p>
             <p>
-              Also interested in digital art and online spaces. New projects in that domain 
+              Also interested in digital art and online spaces. A recent work called "Place Memory" was featured in 
+              the <StyledExLink href='https://www.sciartmagazine.com/movement-mapped.html'>
+                2021 Spring issue of SciArt Magazine
+              </StyledExLink>. New projects in that domain 
               will show up on the <StyledInLink to="/works">works page</StyledInLink>.
             </p>
             <p>
