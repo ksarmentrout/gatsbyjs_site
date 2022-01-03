@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
-import { Container } from "../components/style-blocks"
+import { Container, PageHeader } from "../components/style-blocks"
 import "./landing-bio.css"
 
 const FlexOuterContainer = styled.div`
@@ -11,12 +11,6 @@ const FlexOuterContainer = styled.div`
   justify-content: center;
   flex-direction: row;
   height: 78vh;
-`
-
-const Description = styled.p`
-  padding: 0;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
 `
 
 const NameHeader = styled.h1`
@@ -50,15 +44,18 @@ const LandingBio = () => (
           <NameFade2 className='fade'>Keaton Armentrout</NameFade2>
           <NameFade1 className='fade'>Keaton Armentrout</NameFade1>
           <NameHeader>Keaton Armentrout</NameHeader>
-          {/*<NameFade1>Keaton Armentrout</NameFade1>*/}
-          {/*<NameFade2>Keaton Armentrout</NameFade2>*/}
-          <Description>
-              {/*hey.*/}
-          </Description>
         </Container>
       </FlexOuterContainer>
     )}
   />
+)
+
+const FadeNamePageHeader = () => (
+    <Container>
+      <NameFade2 className='fade'>Keaton Armentrout</NameFade2>
+      <NameFade1 className='fade'>Keaton Armentrout</NameFade1>
+      <NameHeader>Keaton Armentrout</NameHeader>
+    </Container>
 )
 
 NameHeader.propTypes = {
@@ -71,4 +68,7 @@ NameHeader.defaultProps = {
   subtitle: ``,
 }
 
-export default LandingBio
+export {
+  LandingBio,
+  FadeNamePageHeader,
+};

@@ -91,7 +91,7 @@ const Header = () => (
     <Content>
       <p>
         <HomeLink to="/">Main</HomeLink>
-        <NavLink to="/about">About</NavLink>
+        {/* <NavLink to="/about">About</NavLink> */}
         <ExternalLink href="https://mossives.com">
           Music
         </ExternalLink>
