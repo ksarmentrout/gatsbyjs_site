@@ -2,7 +2,7 @@ import React from "react"
 
 import ErrorBoundary from "../components/ErrorBoundary"
 // import LandingBio from "../components/landing-bio"
-import {AboutContent} from "../pages/about"
+import {AboutContent} from "../components/about"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
